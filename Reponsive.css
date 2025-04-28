@@ -91,6 +91,10 @@
     margin-top: 10px;
   }
 
+    .popular {
+    margin-left:0 ;
+  }
+
   .card:hover {
     transform: scale(1.02);
   }
