@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Techbro24_KidsWear</title>
+  <link rel="icon" href="" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome -->
+   
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<!-- Font Awesome CDN (latest version) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="Reponsive.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="headerlogo">
+    <div class="logo">
+      <img class="logoimg" src="./images/logo_techbro-removebg-preview.png" alt="">
+    </div>
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+    <nav id="nav-menu" class="nav">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="#categories" class="dropbtn">Categories <i class="fas fa-chevron-down"></i></a>
+        <div class="dropdown-content">
+          <a href="mini-outfits.html">Mini Outfits</a>
+          <a href="tshirts.html">T-Shirts</a>
+          <a href="Accessories.html">Accessories</a>
+          <a href="jackets.html">Jackets</a>
+        </div>
+      </div>
+      <a href="Featured.html">Featured</a>
+      <a href="AboutUs.html">About</a>
+      <a href="signUp.html"><i class="fa-solid fa-user-plus"></i></a>
+    </nav>
+  </header>
+  
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-text" data-aos="fade-up">
+      <h1>The Art of <span class="Dressing"> Dressing</span> Little Dreams</h1>
+
+      <p>Explore elegant fashion for little ones with <span class="love" >love</span>, comfort & style.</p>
+      <a href="#products" class="Discover-nov">Discover Now</a>
+    </div>
+    <div class="hero-img" data-aos="fade-left">
+      <img src="./images/kid-pose-standing-studio_convert_jpg-removebg-preview.png" alt="Kidswear Premium"/>
+    </div>
+  </section>
+
+  <!-- Categories -->
+ <section class="categories" id="categories">
+  <h2 data-aos="fade-up">Shop by Category</h2>
+  <div class="cat-grid">
+    <a href="mini-outfits.html"><div class="cat-card"  data-aos="zoom-in">
+      <div class="cat-img">
+        <img src="images/Dresses_convert_jpg-removebg-preview.png" alt="Dresses">
+      </div>
+      <p>Mini Outfits</p>
+    </div>
+  </a>
+
+   <a href="tshirts.html"> <div class="cat-card" data-aos="zoom-in">
+      <div class="cat-img">
+        <img src="images/t shirt for kids.avif" alt="T-Shirts">
+      </div>
+      <p>T-Shirts</p>
+    </div>
+  </a>
+
+   <a href="Accessories.html"> <div class="cat-card" data-aos="zoom-in">
+      <div class="cat-img">
+        <img src="images/Accessories.avif" alt="Accessories">
+      </div>
+      <p>Accessories</p>
+    </div>
+  </a>
+
+   <a href="jackets.html"> <div class="cat-card" data-aos="zoom-in">
+      <div class="cat-img">
+        <img src="images/jackets.avif" alt="Jackets">
+      </div>
+    </a>
+      <p>Jackets</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Popular dressses -->
+<div class="main-popular">
+  <h1 class="mainh1">Most Loved Outfits</h1>
+<div class="popular">
+ 
+   <!-- Product Card 1 -->
+   <div class="card" onclick="openDetailPage(this)">
+    <span class="badge">30% OFF</span>
+    <img src="images/card 1.avif" alt="Kids T-shirt">
+    <div class="card-content">
+      <h3>Blush Pink Party Skirt Set</h3>
+      <div class="price">
+        <span class="original">₹499</span>
+        <span class="offer">₹349</span>
+      </div>
+    </div>
+    <!-- Hidden Size Dropdown -->
+    <div class="size-dropdown">
+      <p>Available Sizes:</p>
+      <div class="sizes">
+        <span>2Y</span>
+        <span>3Y</span>
+        <span>4Y</span>
+        <span>5Y</span>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Product Card 2 -->
+  <div class="card"  onclick="openDetailPage(this)">
+    <span class="badge">40% OFF</span>
+    <img src="images/card 2.avif" alt="Kids Frock">
+    <div class="card-content">
+      <h3>Sunshine Plaid Shirt & Denim Combo</h3>
+      <div class="price">
+        <span class="original">₹799</span>
+        <span class="offer">₹479</span>
+      </div>
+    </div>
+     <!-- Hidden Size Dropdown -->
+     <div class="size-dropdown">
+      <p>Available Sizes:</p>
+      <div class="sizes">
+        <span>3Y</span>
+        <span>4Y</span>
+        <span>5Y</span>
+        <span>6Y</span>
+      </div>
+    </div>
+  </div>
+
+   <!-- Product Card 3 -->
+   <div class="card"  onclick="openDetailPage(this)">
+    <span class="badge">30% OFF</span>
+    <img src="images/card 3.avif" alt="Kids T-shirt">
+    <div class="card-content">
+      <h3>Earthy Khaki Summer Dress</h3>
+      <div class="price">
+        <span class="original">₹499</span>
+        <span class="offer">₹349</span>
+      </div>
+    </div>
+     <!-- Hidden Size Dropdown -->
+     <div class="size-dropdown">
+      <p>Available Sizes:</p>
+      <div class="sizes">
+        <span>2Y</span>
+        <span>3Y</span>
+        <span>4Y</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Card 4 -->
+  <div class="card"  onclick="openDetailPage(this)">
+    <span class="badge">40% OFF</span>
+    <img src="images/card 4.avif" alt="Kids Frock">
+    <div class="card-content">
+      <h3>Rainbow Hooded Jacket Set</h3>
+      <div class="price">
+        <span class="original">₹799</span>
+        <span class="offer">₹479</span>
+      </div>
+    </div>
+     <!-- Hidden Size Dropdown -->
+     <div class="size-dropdown">
+      <p>Available Sizes:</p>
+      <div class="sizes">
+        <span>2Y</span>
+        <span>3Y</span>
+        <span>4Y</span>
+        <span>5Y</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Card 5 -->
+  <div class="card"  onclick="openDetailPage(this)">
+    <span class="badge">40% OFF</span>
+    <img src="images/card 5.avif" alt="Kids Frock">
+    <div class="card-content">
+      <h3>Peachy Chic Tulle Dress</h3>
+      <div class="price">
+        <span class="original">₹799</span>
+        <span class="offer">₹479</span>
+      </div>
+    </div>
+     <!-- Hidden Size Dropdown -->
+     <div class="size-dropdown">
+      <p>Available Sizes:</p>
+      <div class="sizes">
+        <span>2Y</span>
+        <span>3Y</span>
+        <span>4Y</span>
+        <span>5Y</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Product Card 6 -->
+  <div class="card"  onclick="openDetailPage(this)">
+    <span class="badge">40% OFF</span>
+    <img src="images/card 6.avif" alt="Kids Frock">
+    <div class="card-content">
+      <h3>Cool Mint Boys Casual Set</h3>
+      <div class="price">
+        <span class="original">₹799</span>
+        <span class="offer">₹479</span>
+      </div>
+    </div>
+     <!-- Hidden Size Dropdown -->
+     <div class="size-dropdown">
+      <p>Available Sizes:</p>
+      <div class="sizes">
+        <span>2Y</span>
+        <span>3Y</span>
+        <span>4Y</span>
+        <span>5Y</span>
+      </div>
+    </div>
+  </div>
+
+   <!-- Product Card 7 -->
+   <div class="card"  onclick="openDetailPage(this)">
+    <span class="badge">40% OFF</span>
+    <img src="images/card 7.avif" alt="Kids Frock">
+    <div class="card-content">
+      <h3>Cherry Pop Party Dress</h3>
+      <div class="price">
+        <span class="original">₹799</span>
+        <span class="offer">₹479</span>
+      </div>
+    </div>
+     <!-- Hidden Size Dropdown -->
+     <div class="size-dropdown">
+      <p>Available Sizes:</p>
+      <div class="sizes">
+        <span>2Y</span>
+        <span>3Y</span>
+        <span>4Y</span>
+        <span>5Y</span>
+      </div>
+    </div>
+  </div>
+
+   <!-- Product Card 8 -->
+   <div class="card"  onclick="openDetailPage(this)">
+    <span class="badge">40% OFF</span>
+    <img src="images/card 8.avif" alt="Kids Frock">
+    <div class="card-content">
+      <h3>Sunshine Yellow Co-ord Set</h3>
+      <div class="price">
+        <span class="original">₹799</span>
+        <span class="offer">₹479</span>
+      </div>
+    </div>
+     <!-- Hidden Size Dropdown -->
+     <div class="size-dropdown">
+      <p>Available Sizes:</p>
+      <div class="sizes">
+        <span>2Y</span>
+        <span>3Y</span>
+        <span>4Y</span>
+        <span>5Y</span>
+      </div>
+    </div>
+  </div>
+
+   <!-- Product Card 9 -->
+ <div class="card"  onclick="openDetailPage(this)">
+  <span class="badge">40% OFF</span>
+  <img src="images/card 9.avif" alt="Kids Frock">
+  <div class="card-content">
+    <h3>Cotton Candy Dungaree Set</h3>
+    <div class="price">
+      <span class="original">₹799</span>
+      <span class="offer">₹479</span>
+    </div>
+  </div>
+   <!-- Hidden Size Dropdown -->
+   <div class="size-dropdown">
+    <p>Available Sizes:</p>
+    <div class="sizes">
+      <span>2Y</span>
+      <span>3Y</span>
+      <span>4Y</span>
+      <span>5Y</span>
+    </div>
+  </div>
+</div>
+
+ <!-- Product Card 10 -->
+ <div class="card"  onclick="openDetailPage(this)">
+  <span class="badge">40% OFF</span>
+  <img src="images/card 10.avif" alt="Kids Frock">
+  <div class="card-content">
+    <h3>Blue Breeze Casual Outfit for Boys</h3>
+    <div class="price">
+      <span class="original">₹799</span>
+      <span class="offer">₹479</span>
+    </div>
+  </div>
+   <!-- Hidden Size Dropdown -->
+   <div class="size-dropdown">
+    <p>Available Sizes:</p>
+    <div class="sizes">
+      <span>2Y</span>
+      <span>3Y</span>
+      <span>4Y</span>
+      <span>5Y</span>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+</div>
+
+
+  <!--  Featured Pieces Products -->
+  <section class="products" id="products">
+    <h2 >Featured Pieces</h2>
+    <div class="products-grids">
+      <div class="product-cards"  data-aos-delay="100">
+        <img src="images/little-girl.avif" alt="">
+        <h3>Pastel Frock</h3>
+        <p>₹899</p>
+      </div>
+      <div class="product-cards"  data-aos-delay="100">
+        <img src="./images/Floral Shirt.avif" alt="">
+        <h3>Floral Shirt</h3>
+        <p>₹649</p>
+      </div>
+      <div class="product-cards"  data-aos-delay="100">
+        <img src="./images/baby jacket.avif" alt="">
+        <h3>Baby Jacket</h3>
+        <p>₹1199</p>
+      </div>
+    </div>
+  </section>
+
+
+ 
+
+<!-- lookbook -->
+<section class="lookbook-section">
+  <h2 class="lookbook-heading">Little Stylebook</h2>
+  <p class="lookbook-subheading">Explore our favorite outfit inspirations curated just for your little ones.</p>
+
+  <div class="lookbook-carousel">
+    <a href="product-detail.html?name=Birthday%20Bash%20Look&img=images/look%201.avif" class="lookbook-card">
+      <img src="images/look 1.avif" alt="Birthday Bash Look">
+      <div class="lookbook-caption">Birthday Bash Look</div>
+    </a>
+
+    <a href="product-detail.html?name=Fairytale%20Princess&img=images/look%206.avif" class="lookbook-card">
+      <img src="images/look 6.avif" alt="Fairytale Princess">
+      <div class="lookbook-caption">Fairytale Princess</div>
+    </a>
+
+    <a href="product-detail.html?name=Winter%20Wonderland&img=images/look%209.jpg" class="lookbook-card">
+      <img src="images/look 9.jpg" alt="Winter Wonderland">
+      <div class="lookbook-caption">Winter Wonderland</div>
+    </a>
+
+    <a href="product-detail.html?name=Summer%20Cool%20Set&img=images/look%204.avif" class="lookbook-card">
+      <img src="images/look 4.avif" alt="Summer Cool Set">
+      <div class="lookbook-caption">Summer Cool Set</div>
+    </a>
+
+    <a href="product-detail.html?name=Monsoon%20Cutie&img=images/look%205.avif" class="lookbook-card">
+      <img src="images/look 5.avif" alt="Monsoon Cutie">
+      <div class="lookbook-caption">Monsoon Cutie</div>
+    </a>
+  </div>
+</section>
+
+
+  <!-- our promise
+  <section class="our-promise" >
+    <h2 class="promise-heading">Our Promise to Every Parent</h2>
+    <p class="promise-subtext">We care about your little one's comfort, style, and joy — always.</p>
+    <div class="promise-grid">
+      <div class="promise-card">
+        <i class="fas fa-feather-alt promise-icon"></i>
+        <h3>Gentle on Skin</h3>
+        <p>Soft, breathable fabrics crafted for delicate baby skin.</p>
+      </div>
+      <div class="promise-card">
+        <i class="fas fa-child promise-icon"></i>
+        <h3>Freedom to Move</h3>
+        <p>Stretchy, playful designs that grow with your child.</p>
+      </div>
+      <div class="promise-card">
+        <i class="fas fa-truck promise-icon"></i>
+        <h3>Fast & Easy</h3>
+        <p>Speedy delivery and worry-free returns for peace of mind.</p>
+      </div>
+      <div class="promise-card">
+        <i class="fas fa-heart promise-icon"></i>
+        <h3>Made with Love</h3>
+        <p>Every thread stitched with care, from us to you.</p>
+      </div>
+    </div>
+  </section>
+   -->
+  
+
+  
+  
+  
+  <!-- Footer -->
+  <footer class="kid-footer">
+    <div class="footer-wave"></div>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo_techbro-removebg-preview.png" alt="TechBro24" class="footer-logo" />
+        <p>TechBro24 — where fashion meets fun for every little rockstar!</p>
+      </div>
+  
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Categories</h4>
+          <ul>
+           <li> <a href="mini-outfits.html">Mini Outfits</a></li>
+           <li><a href="tshirts.html">T-Shirts</a></li>
+            <li> <a href="Accessories.html">Accessories</a></li>
+              <li><a href="jackets.html">Jackets</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-section">
+          <h4>Info</h4>
+          <ul>
+            <li><a href="shipping.html">Shipping</a></li>
+            <li><a href="Returns&Exchange.html">Returns</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-gallery">
+          <h4>Style Peek</h4>
+          <div class="gallery-row">
+            <img src="images/card 2.avif" />
+            <img src="images/card 1.avif" />
+            <img src="images/card 10.avif" />
+          </div>
+        </div>
+  
+        <div class="footer-subscribe">
+          <h4>Newsletter </h4>
+          <p>Get early access to our launches & offers!</p>
+          <form>
+            <input type="email" placeholder="Your email" />
+            <button>Join</button>
+          </form>
+          <div class="footer-socials">
+            <a href="#"><img src="images/instagram_2111463 (1).png" /></a>
+            <a href="#"><img src="images/facebook_5968764.png" /></a>
+            <a href="#"><img src="images/social_15707814.png" /></a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-copy">Copyright © 2025 . All Rights Reserved. | Design and Developed By </a><a target="_blank" href="https://www.techbro24.com/">TechBro24</p>
+    </div>
+  </footer>
+  
+  
+ 
+  <script src="script.js"></script>
+
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000, once: true });
+  </script>
+</body>
+</html>

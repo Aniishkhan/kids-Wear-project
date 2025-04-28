@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product-Detail</title>
+  <link rel="icon" href="" type="image/x-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <!-- Font Awesome -->
+   
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<!-- Font Awesome CDN (latest version) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-xxx" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="Reponsive.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="headerlogo">
+    <div class="logo">
+      <img class="logoimg" src="./images/logo_techbro-removebg-preview.png" alt="">
+    </div>
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+  </div>
+    <nav id="nav-menu" class="nav">
+      <a href="index.html">Home</a>
+      <div class="dropdown">
+        <a href="#categories" class="dropbtn">Categories <i class="fas fa-chevron-down"></i></a>
+        <div class="dropdown-content">
+          <a href="mini-outfits.html">Mini Outfits</a>
+          <a href="tshirts.html">T-Shirts</a>
+          <a href="Accessories.html">Accessories</a>
+          <a href="jackets.html">Jackets</a>
+        </div>
+      </div>
+      <a href="Featured.html">Featured</a>
+      <a href="AboutUs.html">About</a>
+      <a href="signUp.html"><i class="fa-solid fa-user-plus"></i></a>
+    </nav>
+  </header>
+
+<div id="product-detail-container">
+  <!-- Left Side: Image -->
+  <div id="product-detail-image-wrapper">
+    <img id="product-img" src="" alt="Product Image">
+  </div>
+
+  <!-- Right Side: Info -->
+  <div id="product-detail-info">
+    <h1 id="product-title">Loading...</h1>
+    <div id="product-price"></div>
+
+    <div id="product-size-section">
+      <p>Select Size:</p>
+      <div id="product-sizes"></div>
+    </div>
+
+    <div id="product-extra-details">
+      <p><strong>Description:</strong> <span id="product-description"></span></p>
+      <p><strong>Fabric:</strong> <span id="product-fabric"></span></p>
+      <p><strong>Brand:</strong> <span id="product-brand"></span></p>
+      <p><strong>Wash Care:</strong> <span id="product-care"></span></p>
+      <p><strong>Delivery Info:</strong> <span id="product-delivery"></span></p>
+
+    </div>
+    <div class="product-action-buttons">
+        <button class="btn-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+        <button class="btn-buy">Buy Now</button>
+      </div>
+      
+  </div>
+</div>
+
+ <!-- our promise -->
+ <section class="our-promise" >
+    <h2 class="promise-heading">Our Promise to Every Parent</h2>
+    <p class="promise-subtext">We care about your little one's comfort, style, and joy — always.</p>
+    <div class="promise-grid">
+      <div class="promise-card">
+        <i class="fas fa-feather-alt promise-icon"></i>
+        <h3>Gentle on Skin</h3>
+        <p>Soft, breathable fabrics crafted for delicate baby skin.</p>
+      </div>
+      <div class="promise-card">
+        <i class="fas fa-child promise-icon"></i>
+        <h3>Freedom to Move</h3>
+        <p>Stretchy, playful designs that grow with your child.</p>
+      </div>
+      <div class="promise-card">
+        <i class="fas fa-truck promise-icon"></i>
+        <h3>Fast & Easy</h3>
+        <p>Speedy delivery and worry-free returns for peace of mind.</p>
+      </div>
+      <div class="promise-card">
+        <i class="fas fa-heart promise-icon"></i>
+        <h3>Made with Love</h3>
+        <p>Every thread stitched with care, from us to you.</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer class="kid-footer">
+    <div class="footer-wave"></div>
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <img src="images/logo_techbro-removebg-preview.png" alt="TechBro24" class="footer-logo" />
+        <p>TechBro24 — where fashion meets fun for every little rockstar!</p>
+      </div>
+  
+      <div class="footer-grid">
+        <div class="footer-section">
+          <h4>Categories</h4>
+          <ul>
+           <li> <a href="mini-outfits.html">Mini Outfits</a></li>
+           <li><a href="tshirts.html">T-Shirts</a></li>
+            <li> <a href="Accessories.html">Accessories</a></li>
+              <li><a href="jackets.html">Jackets</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-section">
+          <h4>Info</h4>
+          <ul>
+            <li><a href="shipping.html">Shipping</a></li>
+            <li><a href="Returns&Exchange.html">Returns</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+            <li><a href="terms.html">Terms</a></li>
+          </ul>
+        </div>
+  
+        <div class="footer-gallery">
+          <h4>Style Peek</h4>
+          <div class="gallery-row">
+            <img src="images/card 2.avif" />
+            <img src="images/card 1.avif" />
+            <img src="images/card 10.avif" />
+          </div>
+        </div>
+  
+        <div class="footer-subscribe">
+          <h4>Newsletter </h4>
+          <p>Get early access to our launches & offers!</p>
+          <form>
+            <input type="email" placeholder="Your email" />
+            <button>Join</button>
+          </form>
+          <div class="footer-socials">
+            <a href="#"><img src="images/instagram_2111463 (1).png" /></a>
+            <a href="#"><img src="images/facebook_5968764.png" /></a>
+            <a href="#"><img src="images/social_15707814.png" /></a>
+          </div>
+        </div>
+      </div>
+      <p class="footer-copy">Copyright © 2025 . All Rights Reserved. | Design and Developed By </a><a target="_blank" href="https://www.techbro24.com/">TechBro24</p>
+    </div>
+  </footer>
+  <script>
+    const data = JSON.parse(localStorage.getItem('selectedProduct'));
+  
+    if (data) {
+      document.getElementById('product-img').src = data.img;
+      document.getElementById('product-title').innerText = data.title;
+      
+      document.getElementById('product-price').innerHTML = `
+        <del>${data.originalPrice}</del> <span>${data.offerPrice}</span>
+      `;
+  
+      const sizeContainer = document.getElementById('product-sizes');
+      sizeContainer.innerHTML = "";
+      data.sizes.forEach(size => {
+        const span = document.createElement('span');
+        span.innerText = size;
+        span.className = 'product-size-badge';
+        sizeContainer.appendChild(span);
+      });
+  
+      // Extra details
+      document.getElementById('product-description').innerText = data.description;
+      document.getElementById('product-fabric').innerText = data.fabric;
+      document.getElementById('product-brand').innerText = data.brand;
+      document.getElementById('product-care').innerText = data.care;
+      document.getElementById('product-delivery').innerText = data.delivery;
+    }
+  </script>
+  
+  
+</body>
+</html>
